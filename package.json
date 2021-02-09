@@ -2,6 +2,31 @@
   "devDependencies": {
     "eslint": "^7.19.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
-  }
+    "eslint-plugin-import": "^2.22.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "name": "Breakout",
+  "description": "### Classic arcade game called Breakout that is written in vanilla JS",
+  "version": "1.0.0",
+  "main": "background.js",
+  "dependencies": {
+    "is-callable": "^1.2.3",
+    "is-regex": "^1.1.2"
+  },
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisherbegmatov/Breakout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisherbegmatov/Breakout/issues"
+  },
+  "homepage": "https://github.com/alisherbegmatov/Breakout#readme"
 }
